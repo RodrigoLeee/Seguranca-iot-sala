@@ -18,7 +18,7 @@
 | **Requisições HTTP**           | Sobrecarga do back-end e front-end com ataques DDoS de requisições massivas, tornando o site offline.                          | Alto        | Web                       |
 | **WiFi**                       | Acesso irrestrito a dispositivos conectados à mesma rede, possibilitando ataques direcionados à rede e aos dispositivos.       | Alto        | WiFi                      |
 | **Acesso à Memória do ESP32**  | Extração do código-fonte, chaves criptográficas ou dados sensíveis diretamente da memória do ESP32.                            | Alto        | Hardware                  |
-| **CVE-2024-21538**             | manipulação de parâmetros dentro de funções de consulta.                                                                       | Alto        | Web                        |
+| **CVE-2024-21538**             | Manipulação de parâmetros dentro de funções de consulta, que permite a execução de código arbitrário.                          | Alto        | Web                        |
 
 ### Detalhamento
 
