@@ -114,9 +114,9 @@ O TypeORM, até a versão 0.3.14, que está sendo utilizada no nosso projeto, ap
 
 **Recomendações:**  
 
-1. *Atualização para a Versão Corrigida*:  
+1. **Atualização para a Versão Corrigida**:  
    Atualize o TypeORM para a versão 0.3.15 ou superior, onde a vulnerabilidade foi corrigida.  
    [GitHub TypeORM Releases](https://github.com/typeorm/typeorm/releases)
 
-2. *Validação de Entradas*:  
+2. **Validação de Entradas**:  
    Implemente mecanismos robustos de validação e sanitização para todas as entradas de usuários antes de utilizá-las em consultas ao banco de dados.
