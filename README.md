@@ -106,13 +106,13 @@ Com essas medidas, é possível mitigar significativamente o risco de extração
 
 #### **6. CVE-2024-21538: Vulnerabilidade no TypeORM - Rodrigo Lee**
 
-*Descrição:*  
+**Descrição:**  
 O TypeORM, até a versão 0.3.14, que está sendo utilizada no nosso projeto, apresentou uma vulnerabilidade que permitia a execução de código arbitrário ao processar entradas controladas por usuários maliciosos. A vulnerabilidade está relacionada à manipulação de parâmetros dentro de funções de consulta. Sem validações apropriadas, um atacante pode explorar a falha para comprometer o sistema.
 
-*Impacto:* Alto  
-*Superfície de Ataque:* Aplicações que utilizam o TypeORM para manipulação de bancos de dados.
+**Impacto:** Alto  
+**Superfície de Ataque:** Aplicações que utilizam o TypeORM para manipulação de bancos de dados.
 
-*Recomendações:*  
+**Recomendações:**  
 
 1. *Atualização para a Versão Corrigida*:  
    Atualize o TypeORM para a versão 0.3.15 ou superior, onde a vulnerabilidade foi corrigida.  
