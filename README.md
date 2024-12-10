@@ -5,7 +5,7 @@
 - Ian Simão - Criação da tabela e engajamento de ideias.
 - Rodrigo Lee: Criação do repositório e engajamento de ideias.
 - João Campos: Ajuste na tabela e engajamento de ideias.
-- Lucas Brasil: Ajuste na tabela e engajamento de ideias.
+- Lucas Brasil: Ajuste na tabela e engajamento de ideias e adição da tabela em Markdown.
 - Isabelle Dantas: Ajuste na tabela e engajamento de ideias.
 - Heitor Candido: Ajuste na tabela e engajamento de ideias.
 
