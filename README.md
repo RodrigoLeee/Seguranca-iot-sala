@@ -3,7 +3,7 @@
 ## Integrantes e contribuições
 - Nataly Cunha: Criação da tabela e engajamento de ideias.
 - Ian Simão - Criação da tabela e engajamento de ideias.
-- Rodrigo Lee: Pesquisar vulnerabilidades em base de dados e engajamento de ideias.
+- Rodrigo Lee: Ajuste na tabela e engajamento de ideias.
 - João Campos: Ajuste na tabela e engajamento de ideias.
 - Lucas Brasil: Ajuste na tabela e engajamento de ideias e adição da tabela em Markdown.
 - Isabelle Dantas: Ajuste na tabela e engajamento de ideias.
