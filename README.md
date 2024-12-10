@@ -3,7 +3,7 @@
 ## Integrantes e contribuições
 - Nataly Cunha: Criação da tabela e engajamento de ideias.
 - Ian Simão - Criação da tabela e engajamento de ideias.
-- Rodrigo Lee: Criação do repositório e engajamento de ideias.
+- Rodrigo Lee: Pesquisar vulnerabilidades em base de dados e engajamento de ideias.
 - João Campos: Ajuste na tabela e engajamento de ideias.
 - Lucas Brasil: Ajuste na tabela e engajamento de ideias e adição da tabela em Markdown.
 - Isabelle Dantas: Ajuste na tabela e engajamento de ideias.
@@ -101,3 +101,22 @@ No ESP32, é possível acessar fisicamente a memória (principalmente a Flash ex
    - Utilizar resinas, epóxi ou invólucros à prova de adulteração.
 
 Com essas medidas, é possível mitigar significativamente o risco de extração não autorizada do código, chaves e dados sensíveis do ESP32.
+
+---
+
+#### **6. CVE-2024-21538: Vulnerabilidade no TypeORM - Rodrigo Lee**
+
+*Descrição:*  
+O TypeORM, até a versão 0.3.14, que está sendo utilizada no nosso projeto, apresentou uma vulnerabilidade que permitia a execução de código arbitrário ao processar entradas controladas por usuários maliciosos. A vulnerabilidade está relacionada à manipulação de parâmetros dentro de funções de consulta. Sem validações apropriadas, um atacante pode explorar a falha para comprometer o sistema.
+
+*Impacto:* Alto  
+*Superfície de Ataque:* Aplicações que utilizam o TypeORM para manipulação de bancos de dados.
+
+*Recomendações:*  
+
+1. *Atualização para a Versão Corrigida*:  
+   Atualize o TypeORM para a versão 0.3.15 ou superior, onde a vulnerabilidade foi corrigida.  
+   [GitHub TypeORM Releases](https://github.com/typeorm/typeorm/releases)
+
+2. *Validação de Entradas*:  
+   Implemente mecanismos robustos de validação e sanitização para todas as entradas de usuários antes de utilizá-las em consultas ao banco de dados.
