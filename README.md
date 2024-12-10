@@ -3,7 +3,7 @@
 ## Integrantes e contribuições
 - Nataly Cunha: Criação da tabela e engajamento de ideias
 - Ian Simão - Criação da tabela e engajamento de ideias
-- Rodrigo Lee: Criação do repositório e engajamento de ideias
+- Rodrigo Lee: Ajuste na tabela e engajamento de ideias
 - João Campos: Ajuste na tabela e engajamento de ideias
 - Lucas Brasil: Ajuste na tabela e engajamento de ideias
 - Isabelle Dantas: Ajuste na tabela e engajamento de ideias
